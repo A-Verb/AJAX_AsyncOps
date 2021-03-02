@@ -1,0 +1,101 @@
+body {
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+#main-container {
+   margin: 0, auto, 10px, auto;
+   padding: 0 0 50px 0;
+}
+
+header {
+   background-color: dimgray;
+   color: white;
+   padding: 2px 0 20px 0;
+}
+
+footer {
+   background-color: dimgray;
+   color: white;
+   position: fixed;     
+   bottom: 0px;
+   width: 100%;
+   padding: 20px;
+   margin: 5px auto 0 auto;
+}
+
+nav ul {
+   list-style-type: none;
+}
+
+nav li {
+   display: inline-block;
+}
+
+button {
+   font-size: larger;
+   margin: 2px;
+   border-radius: 4px;
+   border: 1px solid black;
+   padding: 5px;
+   width: 100px;
+}
+
+button:hover {
+   background-color: teal;
+   color: white;
+   cursor: pointer;
+}
+
+form {
+   margin: 30px auto;
+   font-size: large;
+   width: 500px;
+   border: 1px solid black;
+   padding: 20px;
+   border-radius: 7px;
+}
+
+.form-controls {
+   margin: 10px auto;
+}
+
+.form-controls input {
+   width: 200px;
+}
+
+.form-controls label {
+   display: inline-block;
+   width: 100px;
+   text-align: right;
+}
+
+
+.table-movies {
+   border: 1px solid black;
+   border-radius: 4px;
+   background-color: teal;
+   margin: auto;
+}
+
+.table-movies thead {
+   color: white;
+}
+
+.table-movies tbody {
+   background-color: lightgray;
+}
+
+.table-movies td {
+   padding: 5px;
+}
+
+.table-movies th {
+   padding: 5px;
+}
+
+
+
+

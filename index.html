@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX APP</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="scripts/jquery-3.5.1.js"></script>
+  <script src="scripts/ajax.js"></script>
+</head>
+
+<body>
+  <div id="main-container">
+    <header>
+      <h1>Asynchronous Operations: AJAX</h1> 
+      <h2></h2> 
+      <nav>
+        <ul>
+          <li><button id="btn-get">GET</button></li>
+          <li><button id="btn-post">POST</button></li>
+          <li><button id="btn-put">PUT</button></li>
+          <li><button id="btn-delete">DELETE</button></li>
+        </ul>
+        <div id="ajax-type">
+          <input type="radio" name="ajax-type" id="ajax" value="ajax" checked>AJAX XMLHttpRequest 
+          <input type="radio" name="ajax-type" id="jquery" value="jQuery">jQuery $.ajax() 
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="ajax-form"></div>
+      <div id="result">
+
+
+      </div>   
+    </main>
+  </div>
+    <footer>
+       &copy; 2020 Adam Verberne.
+    </footer>
+</body>
+</html>
